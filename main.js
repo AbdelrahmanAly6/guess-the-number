@@ -15,10 +15,10 @@ btn.addEventListener("click", function () {
   } else if (user_guess > random) {
     counter++;
     result.style.color = "red";
-    result.innerHTML = " You Guessed It Wrong, Try Lower Number";
+    result.innerHTML = " You Guessed It Wrong, Try Lower Number #" + counter;
   } else {
     counter++;
     result.style.color = "red";
-    result.innerHTML = " You Guessed It Wrong, Try Higher Number";
+    result.innerHTML = " You Guessed It Wrong, Try Higher Number #" + counter;
   }
 });
