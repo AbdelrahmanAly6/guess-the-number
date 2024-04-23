@@ -21,6 +21,6 @@ btn.addEventListener("click", function () {
     counter++;
     result.style.color = "red";
     result.innerHTML =
-      " You Guessed It Wrong, Try Higher Number #" + (counter - 1);
+      " You Guessed It Wrong, Try Higher Number #" + (counter - 1;
   }
 });
